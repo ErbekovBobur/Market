@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 8px;
+    gap: 5px;
+    width: 226px;
+    height: 180px;
+    flex: none;
+    /* order: 1; */
+    align-self: stretch;
+    flex-grow: 0;
+    box-sizing: border-box;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 4px; */
+    width: 210px;
+    /* height: 45px; */
+    flex: none;
+    /* order: 3; */
+    align-self: stretch;
+    flex-grow: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;    
+    color: #414141;
+}
+.name {
+    width: 210px;
+    /* max-width: 210px; */
+    /* height: 48px; */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;    
+    color: #414141;
+    flex: none;
+    /* order: 1; */
+    align-self: stretch;
+    /* flex-grow: 0; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    /* gap: 4px; */
+    width: 210px;
+    height: 16px;
+    flex: none;
+    /* order: 3; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+.star:hover * {
+    fill:#FF6633;
+}
+.starbox {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    
+}
+.star * {    
+    fill:#BFBFBF;
+
+}
+.button:hover {
+    filter:brightness(120%);
+}
+.button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 210px;
+    height: 40px;
+    background: #FF6633;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    flex: none;
+    /* order: 3; */
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+.button:active {
+    /* transform: scale(0.99); */
+    /* width: 209px;
+    height: 39px; */
+    box-shadow: 0 0 hsl(5, 60%, 60%);
+    border: 3px solid hsl(5, 40%, 70%);
+    background: #f96c3d    
+    }
+.text {
+    width: 194px;
+    height: 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;    
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    /* order: 0; */
+    flex-grow: 1;
+}

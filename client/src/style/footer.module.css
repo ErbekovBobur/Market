@@ -1,0 +1,11 @@
+.logo {
+    width: 2rem;
+    padding: 5%;
+    margin: auto;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.logo:hover{
+    filter: grayscale(0);
+}

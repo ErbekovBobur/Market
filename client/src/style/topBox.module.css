@@ -1,0 +1,62 @@
+.topBox {
+    width: 226px;
+    height: 170px;
+    flex: none;
+    /* order: 0; */
+    align-self: stretch;
+    /* flex-grow: 0; */
+    position: relative;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+}
+.logo{
+    /* margin: 0 auto; */
+    max-width:12rem;
+    height: 11rem;
+    max-height: 11rem;
+}
+.img {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    padding: 4px;
+    gap: 8px;
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    right: 6px;
+    top: 6px;
+    background: #fff;
+    opacity: 0.7;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button {
+    width: 24px;
+    height: 24px;
+}
+
+.button:hover * {
+    fill: red;
+}
+
+/* .heart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 0px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 0px;
+    top: 0px;
+    background:#0d6efd;
+    opacity: 0.9;
+    border-radius: 6px;
+    cursor: pointer;
+} */

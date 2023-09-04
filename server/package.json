@@ -1,0 +1,19 @@
+{
+  "name": "market",
+  "version": "1.0.0",
+  "description": "online market",
+  "main": "app.js",
+  "scripts": {
+    "dev": "app.js",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bobur",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "pg": "^8.9.0"
+  }
+}

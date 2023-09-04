@@ -1,0 +1,28 @@
+.currencyLogoWrapper{
+    width: 26px;
+    height: 26px;
+    font-size: 0;
+    line-height: 0;
+    /* display: inline-block; */
+    -ms-flex-negative: 0;
+    padding: 0.1rem 0 0 0.2rem;
+    
+    /* flex-shrink: 0; */
+}
+.currencyLogo{
+    /* position: relative; */
+    /* display: inline-block; */
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    /* -webkit-transform: translate(0, 0);
+    transform: translate(0, 0); */
+}
+.tempText{
+    font-size: 0.7rem;
+    padding: 0;
+}
+.currencyDiff{
+    max-width: 1.25rem;
+    max-height: 1.25rem;
+}
